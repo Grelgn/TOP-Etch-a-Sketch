@@ -1,12 +1,16 @@
 body {
     background-color: antiquewhite;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 #container {
     display: flex;
     flex-flow: column;
-    /* justify-content: center; */
     align-items: center;
+    width: 768px;
+    height: 768px;
 }
 
 .row {
@@ -15,7 +19,6 @@ body {
 
 .column {
     background-color: white;
-    padding: 24px;
 }
 
 .hover {
@@ -23,7 +26,5 @@ body {
 }
 
 .btn {
-    display: flex;
-    justify-content: center;
     margin: 16px;
 }
