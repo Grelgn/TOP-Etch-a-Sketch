@@ -1,0 +1,29 @@
+body {
+    background-color: antiquewhite;
+}
+
+#container {
+    display: flex;
+    flex-flow: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    background-color: white;
+    padding: 24px;
+}
+
+.hover {
+    background-color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
